@@ -2,9 +2,9 @@ const form = document.getElementById("contactForm");
 
 if(form){
 
-form.addEventListener("submit", function(event){
+form.addEventListener("submit", function(e){
 
-event.preventDefault();
+e.preventDefault();
 
 document.getElementById("formMessage").innerText =
 "Thank you! Your message has been received.";
