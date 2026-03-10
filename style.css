@@ -1,3 +1,31 @@
+/* Skills Cards */
+.skills .skill {
+  background: #d0ebff; /* baby blue instead of white */
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.skills .skill:hover {
+  background: #38bdf8; /* bright blue on hover */
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Project Cards */
+.projects .card {
+  background: #d0ebff; /* baby blue instead of white */
+  transition: transform 0.3s;
+}
+
+.projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Section Backgrounds (optional for alternation) */
+section:nth-child(even) {
+  background: #e5e7eb; /* keep light gray for contrast between sections */
+}
 /* Hero Section Background & Text */
 .hero {
   background: linear-gradient(120deg, #0f172a, #1e3a8a), url('images/hero-bg.jpg') no-repeat center/cover;
