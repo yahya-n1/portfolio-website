@@ -1,3 +1,65 @@
+/* Hero Section Background & Text */
+.hero {
+  background: linear-gradient(120deg, #0f172a, #1e3a8a), url('images/hero-bg.jpg') no-repeat center/cover;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+/* Skills Cards */
+.skills .skill {
+  background: #f0f9ff; /* light blue */
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.skills .skill:hover {
+  background: #38bdf8; /* bright blue on hover */
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Project Cards */
+.projects .card {
+  background: #fef9f5; /* light cream */
+  transition: transform 0.3s;
+}
+
+.projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Alternate Section Backgrounds */
+section:nth-child(even) {
+  background: #e5e7eb; /* very light gray for contrast */
+}
+
+/* Buttons */
+.btn {
+  background: #38bdf8;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg,#38bdf8,#0ea5e9);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
 body{
 font-family:Arial, sans-serif;
 margin:0;
