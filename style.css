@@ -24,7 +24,7 @@
 
 /* Section Backgrounds (optional for alternation) */
 section:nth-child(even) {
-  background: #e5e7eb; /* keep light gray for contrast between sections */
+  background: #38bdf8; /* bright blue on hover */
 }
 /* Hero Section Background & Text */
 .hero {
@@ -61,7 +61,7 @@ section:nth-child(even) {
 
 /* Alternate Section Backgrounds */
 section:nth-child(even) {
-  background: #e5e7eb; /* very light gray for contrast */
+  background: #38bdf8; /* bright blue on hover */
 }
 
 /* Buttons */
