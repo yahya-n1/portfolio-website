@@ -56,17 +56,22 @@ margin:auto;
 padding:50px 20px;
 }
 
-.skills{
-display:flex;
-flex-wrap:wrap;
-gap:15px;
+.skill {
+  background: #f0f9ff; /* soft blue instead of plain white */
+  color: #0f172a;
+}
+.card {
+  background: #fef9f5; /* light cream */
+}
+.skill:hover {
+  background: #38bdf8;
+  color: white;
+  transform: translateY(-3px);
+  transition: 0.3s;
 }
 
-.skill{
-background:white;
-padding:10px 20px;
-border-radius:6px;
-box-shadow:0 3px 8px rgba(0,0,0,0.1);
+.projects .card:nth-child(even) {
+  background: #f0f9ff;
 }
 
 .projects{
