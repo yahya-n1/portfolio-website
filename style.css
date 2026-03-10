@@ -1,6 +1,6 @@
 /* Skills Cards */
 .skills .skill {
-  background: #d0ebff; /* baby blue instead of white */
+  background: #d0ebff; /* baby blue */
   color: #0f172a;
   transition: 0.3s;
 }
@@ -13,7 +13,7 @@
 
 /* Project Cards */
 .projects .card {
-  background: #d0ebff; /* baby blue instead of white */
+  background: #b3d9ff; /* slightly different baby blue than skills */
   transition: transform 0.3s;
 }
 
@@ -22,11 +22,14 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-/* Section Backgrounds (optional for alternation) */
-section:nth-child(even) {
-  background: #38bdf8; /* bright blue on hover */
+/* Section Backgrounds (soft baby blue for contrast) */
+section {
+  background: #d0ebff; /* soft baby blue for all sections */
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
-/* Hero Section Background & Text */
+
+/* Hero Section Background & Text (keep as is) */
 .hero {
   background: linear-gradient(120deg, #0f172a, #1e3a8a), url('images/hero-bg.jpg') no-repeat center/cover;
   background-size: cover;
@@ -34,7 +37,6 @@ section:nth-child(even) {
   text-align: center;
   padding: 100px 20px;
 }
-
 /* Skills Cards */
 .skills .skill {
   background: #f0f9ff; /* light blue */
